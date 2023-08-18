@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['bien_do', 'bien_ngoai_giao', 'bien_trang', 'bien_vang', 'bien_xanh']
+
+roboflow:
+  workspace: license-plate-x8kza
+  project: license_plate-c6jin
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/license-plate-x8kza/license_plate-c6jin/dataset/7
